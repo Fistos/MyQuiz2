@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tih.myquiz.quiz"
+    android:background="#F5F5F5"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/theface"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:paddingBottom="20dp"/>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="301dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+           >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Know your South Africa...."
+                android:textAlignment="center"
+                android:id="@+id/textView"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="false"
+                android:fontFamily="cursive"
+                android:lineSpacingExtra="30sp"
+                android:textSize="20sp"
+                android:paddingTop="18dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:text="ABout Your President"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn1"
+                android:paddingTop="20dp"/>
+
+            <Button
+                android:text="About your languages"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn2"
+                android:paddingTop="20dp"/>
+
+            <Button
+                android:text="about our History"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn3"
+                android:paddingTop="20dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
